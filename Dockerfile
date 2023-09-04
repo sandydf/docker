@@ -1,7 +1,7 @@
 FROM pytorch/pytorch:1.10.0-cuda11.3-cudnn8-devel
 RUN pip install --upgrade pip
 RUN pip install torchvision==0.11.3
-RUN pip install numpy==1.22.3
+RUN pip install numpy
 RUN pip install opencv-python==4.2.0.34
 RUN pip install pudb==2019.2
 RUN pip install imageio==2.14.1
