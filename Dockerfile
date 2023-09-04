@@ -17,3 +17,6 @@ RUN pip install torch-fidelity==0.3.0
 RUN pip install transformers==4.18.0
 RUN pip install torchmetrics==0.6.0
 RUN pip install kornia==0.6
+RUN conda install git
+RUN pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+RUN pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
