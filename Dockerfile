@@ -8,7 +8,7 @@ RUN pip install opencv-python==4.5.5.64
 RUN pip install pudb==2019.2
 RUN pip install imageio==2.9.0
 RUN pip install imageio-ffmpeg==0.4.2
-RUN pip install pytorch-lightning==1.4.2
+RUN conda install pytorch-lightning -c conda-forge
 RUN pip install omegaconf==2.1.1
 RUN pip install test-tube>=0.7.5
 RUN pip install streamlit>=0.73.1
