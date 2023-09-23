@@ -22,8 +22,4 @@ RUN pip install fire==0.4.0
 RUN pip install gradio==3.1.4
 RUN pip install diffusers==0.3.0
 RUN pip install datasets[vision]==2.4.0
-RUN pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
-RUN pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
-RUN pip install -e git+https://github.com/justinpinkney/nomi.git@e9ded23b7e2269cc64d39683e1bf3c0319f552ab#egg=nomi
-RUN pip install -e .
 
