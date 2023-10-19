@@ -3,7 +3,6 @@ RUN conda update -n base -c defaults conda
 RUN conda install _libgcc_mutex=0.1=main
 RUN conda install _openmp_mutex=5.1=1_gnu
 RUN conda install blas=1.0=mkl
-RUN conda install brotlipy=0.7.0=py38h27cfd23_1003
 RUN conda install bzip2=1.0.8=h7b6447c_0
 RUN conda install ca-certificates=2023.05.30=h06a4308_0
 RUN conda install certifi=2023.7.22=py38h06a4308_0
