@@ -1,4 +1,4 @@
-FROM sandydf/docker:v3.2.3
+FROM pytorch/pytorch:1.13.1-cuda11.6-cudnn8-devel
 RUN conda update -n base -c defaults conda
 RUN conda install _libgcc_mutex=0.1=main
 RUN conda install _openmp_mutex=5.1=1_gnu
