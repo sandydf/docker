@@ -6,7 +6,6 @@ RUN conda install blas=1.0=mkl
 RUN conda install bzip2=1.0.8=h7b6447c_0
 RUN conda install ca-certificates=2023.05.30=h06a4308_0
 RUN conda install charset-normalizer=2.0.4=pyhd3eb1b0_0
-RUN conda install cryptography=39.0.1=py38h9ce1e76_0
 RUN conda install cuda-cccl=11.8.89=0
 RUN conda install cuda-command-line-tools=11.8.0=0
 RUN conda install cuda-compiler=11.8.0=0
