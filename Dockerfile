@@ -1,5 +1,5 @@
 FROM pytorch/pytorch:1.13.1-cuda11.6-cudnn8-devel
-RUN pip install --upgrade pip
+RUN conda update -n base -c defaults conda
 RUN conda install _libgcc_mutex=0.1=main
 RUN conda install _openmp_mutex=5.1=1_gnu
 RUN conda install blas=1.0=mkl
