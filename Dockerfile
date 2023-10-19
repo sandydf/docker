@@ -6,7 +6,6 @@ RUN conda install blas=1.0=mkl
 RUN conda install bzip2=1.0.8=h7b6447c_0
 RUN conda install ca-certificates=2023.05.30=h06a4308_0
 RUN conda install charset-normalizer=2.0.4=pyhd3eb1b0_0
-RUN conda install ffmpeg=4.3=hf484d3e_0
 RUN conda install freetype=2.12.1=h4a9f257_0
 RUN conda install gds-tools=1.4.0.31=0
 RUN conda install giflib=5.2.1=h5eee18b_3
