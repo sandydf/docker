@@ -5,7 +5,7 @@ RUN pip install numpy
 RUN pip install rembg
 RUN pip install opencv-contrib-python
 RUN pip install streamlit==1.22.0
-RUN pip install altair<5
+RUN pip install altair
 RUN pip install huggingface_hub
 RUN pip install gradio>=3.50
 RUN pip install fire
